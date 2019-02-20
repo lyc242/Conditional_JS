@@ -47,9 +47,9 @@ document.write("<p>You got "+ correctAnswer +" question(s) right!</p>")
 
 if (correctAnswer === 6){
     document.write("<p>You win the gold crown!</p>");
-}   else if (3<correctAnswer<6) {
+}   else if (correctAnswer<6 && correctAnswer>=3) {
     document.write("<p>You win the silver crown!</p>");
-}   else if (1<correctAnswer<2) {
+}   else if (correctAnswer<2 && correctAnswer>=1) {
     document.write("<p>You win the bronze crown!</p>");
 } else {
     document.write("<p>Better luck next time!</p>");
